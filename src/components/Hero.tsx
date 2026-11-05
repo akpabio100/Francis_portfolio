@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import type { ReactNode } from "react";
 import { PROFILE, ROLES, START, STATS } from "../lib/data";
 import { useTypewriter } from "../lib/useTypewriter";
-import { ArrowRight, ChevronDown, Download } from "./Icons";
+import { ArrowRight, ArrowUpRight, ChevronDown, Download } from "./Icons";
 import { Counter, Magnetic } from "./Interactive";
 import PhoneMockup from "./PhoneMockup";
 import { EASE } from "./Reveal";
@@ -83,6 +83,29 @@ export default function Hero() {
                 <Download width={18} height={18} /> Download CV
               </a>
             </Magnetic>
+          </motion.div>
+
+          <motion.div
+            {...fade(0.95)}
+            className="mt-7 flex flex-wrap items-center gap-3 text-sm text-slate-400"
+          >
+            <span>Find me on</span>
+            <a
+              href={PROFILE.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="chip inline-flex items-center gap-1.5 !px-4 !py-1.5"
+            >
+              GitHub <ArrowUpRight width={14} height={14} />
+            </a>
+            <a
+              href={PROFILE.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="chip inline-flex items-center gap-1.5 !px-4 !py-1.5"
+            >
+              LinkedIn <ArrowUpRight width={14} height={14} />
+            </a>
           </motion.div>
 
           <motion.dl

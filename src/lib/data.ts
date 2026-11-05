@@ -23,7 +23,7 @@ export const PROFILE = {
   // Optional: paste your Formspree form ID here (e.g. "xyzabcde") to receive messages by email
   formspreeId: "",
   // Recommended: free access key from https://web3forms.com (emailed to you instantly)
-  web3formsKey: "",
+  web3formsKey: "7b9f56d4-bf41-4182-b93c-cbaaf727e632",
   github: "https://github.com/akpabio100",
   linkedin: "https://linkedin.com/in/adekule-francis-8896b82b8",
 };
