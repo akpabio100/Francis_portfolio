@@ -1,0 +1,12 @@
+PUT YOUR FILES HERE
+
+1. CV (needed for the "Download CV" buttons)
+   Save your PDF in this folder with this exact name:
+   Adekunle_Francis_Flutter_Developer_CV.pdf
+
+2. Photo (optional)
+   Save an image here, for example: photo.jpg
+   Then open src/lib/data.ts and set:  photo: "/photo.jpg"
+
+Files in this folder are served from the website root, so
+public/photo.jpg  ->  https://your-site.com/photo.jpg
